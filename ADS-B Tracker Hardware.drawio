@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="u1fvfj1wobe4jAqtQsjZ">
+    <mxGraphModel dx="1997" dy="639" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NkVrKG0d6OTZh-IAymT6-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="370" width="585" x="-260" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="NkVrKG0d6OTZh-IAymT6-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f0a30a;fontColor=#000000;strokeColor=#BD7000;" value="Compute Module 5" vertex="1">
+          <mxGeometry height="130" width="240" x="30" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NkVrKG0d6OTZh-IAymT6-2" edge="1" parent="1" source="NkVrKG0d6OTZh-IAymT6-1" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;startArrow=dash;startFill=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NkVrKG0d6OTZh-IAymT6-6" value="4-Lane DSI">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="260" as="sourcePoint" />
+            <mxPoint x="425" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkVrKG0d6OTZh-IAymT6-6" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;" value="10.1 Inch DSI LCD Controller" vertex="1">
+          <mxGeometry height="130" width="130" x="425" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="NkVrKG0d6OTZh-IAymT6-10" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#76608a;fontColor=#ffffff;strokeColor=#432D57;" value="&lt;span style=&quot;font-family: Calibri; font-size: 10pt;&quot;&gt;&lt;strong&gt;STM32G071 LQFP-48&lt;/strong&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="85" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="NkVrKG0d6OTZh-IAymT6-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fontColor=#ffffff;fillColor=#6d8764;strokeColor=#3A5431;align=center;" value="&lt;p style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;AOM12864A0 OLED DISPLAY&lt;/font&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="95" width="160" x="395" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="NkVrKG0d6OTZh-IAymT6-16" edge="1" parent="1" source="NkVrKG0d6OTZh-IAymT6-10" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=dash;startFill=0;" target="NkVrKG0d6OTZh-IAymT6-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="230" y="497" as="sourcePoint" />
+            <mxPoint x="400" y="497" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkVrKG0d6OTZh-IAymT6-17" connectable="0" parent="NkVrKG0d6OTZh-IAymT6-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="SPI" vertex="1">
+          <mxGeometry relative="1" x="0.3949" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkVrKG0d6OTZh-IAymT6-18" edge="1" parent="1" source="NkVrKG0d6OTZh-IAymT6-10" style="endArrow=none;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="NkVrKG0d6OTZh-IAymT6-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="480" y="430" as="sourcePoint" />
+            <mxPoint x="530" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NkVrKG0d6OTZh-IAymT6-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4 Pin PWR" vertex="1">
+          <mxGeometry height="60" width="35" x="290" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="NkVrKG0d6OTZh-IAymT6-20" edge="1" parent="1" source="NkVrKG0d6OTZh-IAymT6-19" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=page;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;shape=wire;dashed=1;startArrow=dash;startFill=0;" target="NkVrKG0d6OTZh-IAymT6-6" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="370" />
+            </Array>
+            <mxPoint x="390" y="390" as="sourcePoint" />
+            <mxPoint x="440" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
