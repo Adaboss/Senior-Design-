@@ -54,14 +54,6 @@
         <mxCell id="NkVrKG0d6OTZh-IAymT6-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="" vertex="1">
           <mxGeometry height="210" width="240" x="-260" y="-90" as="geometry" />
         </mxCell>
-        <mxCell id="BCgcyLp2PLSAIzueEC9M-22" edge="1" parent="1" source="BCgcyLp2PLSAIzueEC9M-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="NkVrKG0d6OTZh-IAymT6-10">
-          <mxGeometry relative="1" x="0.181" as="geometry">
-            <Array as="points">
-              <mxPoint x="250" y="480" />
-              <mxPoint x="250" y="497.5" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="BCgcyLp2PLSAIzueEC9M-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4 Pin JST-SH" vertex="1">
           <mxGeometry height="60" width="45" x="280" y="450" as="geometry" />
         </mxCell>
@@ -90,24 +82,6 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BCgcyLp2PLSAIzueEC9M-27" edge="1" parent="1" source="BCgcyLp2PLSAIzueEC9M-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;startArrow=dash;startFill=0;">
-          <mxGeometry relative="1" x="-0.0076" as="geometry">
-            <Array as="points">
-              <mxPoint y="-25" />
-              <mxPoint x="1" y="497.5" />
-            </Array>
-            <mxPoint x="-129" y="15.000000000000227" as="sourcePoint" />
-            <mxPoint x="81" y="497.5" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BCgcyLp2PLSAIzueEC9M-28" connectable="0" parent="BCgcyLp2PLSAIzueEC9M-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="i2c" vertex="1">
-          <mxGeometry relative="1" x="-0.3648" y="8" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BCgcyLp2PLSAIzueEC9M-30" edge="1" parent="1" source="BCgcyLp2PLSAIzueEC9M-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="BCgcyLp2PLSAIzueEC9M-6">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="BCgcyLp2PLSAIzueEC9M-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&amp;nbsp;TI &lt;strong&gt;BQ25798&lt;/strong&gt;" vertex="1">
           <mxGeometry height="60" width="70" x="-150" y="-70" as="geometry" />
         </mxCell>
@@ -130,6 +104,32 @@
         </mxCell>
         <mxCell id="BCgcyLp2PLSAIzueEC9M-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="5V/3.3V Buck" vertex="1">
           <mxGeometry height="60" width="120" x="-190" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BCgcyLp2PLSAIzueEC9M-22" edge="1" parent="1" source="BCgcyLp2PLSAIzueEC9M-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;" target="NkVrKG0d6OTZh-IAymT6-10">
+          <mxGeometry relative="1" x="0.181" as="geometry">
+            <Array as="points">
+              <mxPoint x="250" y="480" />
+              <mxPoint x="250" y="497.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BCgcyLp2PLSAIzueEC9M-27" edge="1" parent="1" source="BCgcyLp2PLSAIzueEC9M-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;startArrow=dash;startFill=0;">
+          <mxGeometry relative="1" x="-0.0076" as="geometry">
+            <Array as="points">
+              <mxPoint y="-25" />
+              <mxPoint x="1" y="497.5" />
+            </Array>
+            <mxPoint x="-129" y="15.000000000000227" as="sourcePoint" />
+            <mxPoint x="81" y="497.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BCgcyLp2PLSAIzueEC9M-28" connectable="0" parent="BCgcyLp2PLSAIzueEC9M-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];inheritText=1;defaultLabelBackgroundColor=page;" value="i2c" vertex="1">
+          <mxGeometry relative="1" x="-0.3648" y="8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BCgcyLp2PLSAIzueEC9M-30" edge="1" parent="1" source="BCgcyLp2PLSAIzueEC9M-7" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;endArrow=none;endFill=0;" target="BCgcyLp2PLSAIzueEC9M-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BCgcyLp2PLSAIzueEC9M-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="22 Pin DSI" vertex="1">
           <mxGeometry height="60" width="35" x="290" y="235" as="geometry" />
